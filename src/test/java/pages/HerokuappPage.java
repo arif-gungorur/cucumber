@@ -27,4 +27,7 @@ public class HerokuappPage {
     @FindBy(tagName = "p")
     public WebElement textBox;
 
+    @FindBy(id = "dropdown")
+    public WebElement dropdown;
+
 }

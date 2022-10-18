@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.06">
-    <testcase classname="iframe testing" name="Handle Iframe Testing" time="11.562">
-        <system-out><![CDATA[Given user goes to the website to handle iframe.............................passed
-And user switchs to iframe..................................................passed
-And user writes something in textbox........................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.861">
+    <testcase classname="select testing" name="Select Dropdown Testing" time="9.152">
+        <system-out><![CDATA[Given user goes to the website to select....................................passed
+And user select second option...............................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
