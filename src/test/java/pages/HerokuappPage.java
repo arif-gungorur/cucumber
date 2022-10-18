@@ -20,4 +20,11 @@ public class HerokuappPage {
 
     @FindBy(xpath = "//a[.='Screenshot.png']")
     public WebElement file;
+
+    @FindBy(tagName = "iframe")
+    public WebElement iframe;
+
+    @FindBy(tagName = "p")
+    public WebElement textBox;
+
 }
