@@ -1,5 +1,5 @@
 Feature: actions testing
-  @actions
+  @actions @parallel1
   Scenario: Actions Drag and Drop Testing
     Given user goes the website to drag and drop
     And user drags and drops
