@@ -1,8 +1,7 @@
 Feature: download testing
 
   @download
-  Scenario: File Download Testing
-
+  Scenario: Download File Testing
     Given user goes the website to download
     And user downloads the file
-    Then user validates the file
+    Then user validates the result
